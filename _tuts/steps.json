@@ -1,0 +1,405 @@
+{
+    "steps": [
+        {
+            "id": "start",
+            "name": "start",
+            "description": null
+        },
+        {
+            "id": "setup-new-project",
+            "name": "Setup: New project",
+            "description": null
+        },
+        {
+            "id": "setup-remove-controller",
+            "name": "Setup: Remove controller",
+            "description": null
+        },
+        {
+            "id": "route-first-route-controller",
+            "name": "Route: First route\/controller",
+            "description": null
+        },
+        {
+            "id": "route-add-wildcard",
+            "name": "Route: Add wildcard",
+            "description": null
+        },
+        {
+            "id": "route-misname-wildcard",
+            "name": "Route: Misname wildcard",
+            "description": null
+        },
+        {
+            "id": "route-fix-wildcard-name",
+            "name": "Route: Fix wildcard name",
+            "description": null
+        },
+        {
+            "id": "templating-render-basic-template",
+            "name": "Templating: Render basic template",
+            "description": null
+        },
+        {
+            "id": "templating-render-short-way",
+            "name": "Templating: Render short way",
+            "description": null
+        },
+        {
+            "id": "twig-use-dump",
+            "name": "Twig: Use dump()",
+            "description": null
+        },
+        {
+            "id": "twig-do-something-loop",
+            "name": "Twig: Do something loop",
+            "description": null
+        },
+        {
+            "id": "twig-extend-without-block",
+            "name": "Twig: Extend without block",
+            "description": null
+        },
+        {
+            "id": "twig-use-block-body",
+            "name": "Twig: Use block body",
+            "description": null
+        },
+        {
+            "id": "twig-override-title-block",
+            "name": "Twig: Override title block",
+            "description": null
+        },
+        {
+            "id": "layout-include-our-layout",
+            "name": "Layout: Include our layout",
+            "description": null
+        },
+        {
+            "id": "json-new-simple-json-endpoint",
+            "name": "JSON: New simple JSON endpoint",
+            "description": null
+        },
+        {
+            "id": "json-use-jsonresponse",
+            "name": "JSON: Use JsonResponse",
+            "description": null
+        },
+        {
+            "id": "json-link-to-page",
+            "name": "JSON: Link to page",
+            "description": null
+        },
+        {
+            "id": "json-finish-ajax-call",
+            "name": "JSON: Finish AJAX call",
+            "description": null
+        },
+        {
+            "id": "json-pass-in-dynamic-uri",
+            "name": "JSON: Pass in dynamic URI",
+            "description": null
+        },
+        {
+            "id": "bundle-install-knpmarkdownbundle",
+            "name": "Bundle: Install KnpMarkdownBundle",
+            "description": null
+        },
+        {
+            "id": "bundle-render-funfact-dynamically",
+            "name": "Bundle: Render funFact dynamically",
+            "description": null
+        },
+        {
+            "id": "bundle-use-markdown-parser-service",
+            "name": "Bundle: Use markdown.parser service",
+            "description": null
+        },
+        {
+            "id": "bundle-use-this-get-in-controller",
+            "name": "Bundle: Use $this->get() in controller",
+            "description": null
+        },
+        {
+            "id": "config-use-twig-config",
+            "name": "Config: Use twig config",
+            "description": null
+        },
+        {
+            "id": "config-use-doctrinecachebundle",
+            "name": "Config: Use DoctrineCacheBundle",
+            "description": null
+        },
+        {
+            "id": "config-cache-cache-dir-incorrectly",
+            "name": "Config: Cache cache dir incorrectly",
+            "description": null
+        },
+        {
+            "id": "config-cache-dir-correctly",
+            "name": "Config: Cache dir correctly",
+            "description": null
+        },
+        {
+            "id": "environment-firephp-in-dev",
+            "name": "Environment: Firephp in dev",
+            "description": null
+        },
+        {
+            "id": "environment-no-caching-in-dev",
+            "name": "Environment: no caching in dev",
+            "description": null
+        },
+        {
+            "id": "environment-make-number-format-comma",
+            "name": "Environment: make number_format comma",
+            "description": null
+        },
+        {
+            "id": "parameters-define-cache-type",
+            "name": "Parameters: Define cache_type",
+            "description": null
+        },
+        {
+            "id": "parameters-override-in-config-dev-yml",
+            "name": "Parameters: Override in config_dev.yml",
+            "description": null
+        },
+        {
+            "id": "parameters-use-built-in",
+            "name": "Parameters: use built-in",
+            "description": null
+        },
+        {
+            "id": "parameters-remove-swiftmailer-parameters-yml",
+            "name": "Parameters: Remove swiftmailer parameters.yml",
+            "description": null
+        },
+        {
+            "id": "routing-add-yaml-route",
+            "name": "Routing: Add YAML route",
+            "description": null
+        },
+        {
+            "id": "entity-create-blank-genus",
+            "name": "Entity: Create blank Genus",
+            "description": null
+        },
+        {
+            "id": "entity-add-class-annotation",
+            "name": "Entity: Add class annotation",
+            "description": null
+        },
+        {
+            "id": "entity-add-2-properties",
+            "name": "Entity: Add 2 properties",
+            "description": null
+        },
+        {
+            "id": "save-genus-start-controller-code",
+            "name": "Save Genus: Start controller code",
+            "description": null
+        },
+        {
+            "id": "save-genus-add-setter-persist",
+            "name": "Save Genus: Add setter + persist",
+            "description": null
+        },
+        {
+            "id": "save-genus-add-body-to-see-profiler",
+            "name": "Save Genus: Add body to see profiler",
+            "description": null
+        },
+        {
+            "id": "migrations-install-bundle",
+            "name": "Migrations: Install bundle",
+            "description": null
+        },
+        {
+            "id": "migrations-add-fields-make-migration",
+            "name": "Migrations: Add fields, make migration",
+            "description": null
+        },
+        {
+            "id": "migrations-set-all-fields-but-funfact",
+            "name": "Migrations: Set all fields but funFact",
+            "description": null
+        },
+        {
+            "id": "migrations-set-nullable-make-migration",
+            "name": "Migrations: set nullable, make migration",
+            "description": null
+        },
+        {
+            "id": "query-basic-listaction",
+            "name": "Query: Basic listAction",
+            "description": null
+        },
+        {
+            "id": "query-use-entity-shortcut-alias",
+            "name": "Query: use entity shortcut alias",
+            "description": null
+        },
+        {
+            "id": "twig-entity-render-template-dump",
+            "name": "Twig entity: render template, dump",
+            "description": null
+        },
+        {
+            "id": "twig-entity-render-properties",
+            "name": "Twig entity: render properties",
+            "description": null
+        },
+        {
+            "id": "twig-entity-use-updatedat",
+            "name": "Twig entity: use updatedAt",
+            "description": null
+        },
+        {
+            "id": "link-add-route-name-and-link",
+            "name": "Link: Add route name and link",
+            "description": null
+        },
+        {
+            "id": "show-query-in-show-action-render",
+            "name": "Show: query in show action, render",
+            "description": null
+        },
+        {
+            "id": "show-404-on-bad-genus",
+            "name": "Show: 404 on bad genus",
+            "description": null
+        },
+        {
+            "id": "fixtures-install-alice-doctrinefixturesbundle",
+            "name": "Fixtures: Install alice+DoctrineFixturesBundle",
+            "description": null
+        },
+        {
+            "id": "fixtures-empty-fixture-class",
+            "name": "Fixtures: Empty fixture class",
+            "description": null
+        },
+        {
+            "id": "fixtures-adding-alice-yml-file",
+            "name": "Fixtures: Adding Alice yml file",
+            "description": null
+        },
+        {
+            "id": "fixtures-custom-genus-function",
+            "name": "Fixtures: Custom genus function",
+            "description": null
+        },
+        {
+            "id": "fixtures-add-ispublished-bool",
+            "name": "Fixtures: Add isPublished bool",
+            "description": null
+        },
+        {
+            "id": "repository-dump-repo-object",
+            "name": "Repository: Dump repo object",
+            "description": null
+        },
+        {
+            "id": "repository-create-empty-configure",
+            "name": "Repository: Create empty + configure",
+            "description": null
+        },
+        {
+            "id": "repository-basic-qb-method",
+            "name": "Repository: Basic QB method",
+            "description": null
+        },
+        {
+            "id": "manytoone-genusnote-entity",
+            "name": "ManyToOne: GenusNote entity",
+            "description": null
+        },
+        {
+            "id": "manytoone-genusnote-fixtures",
+            "name": "ManyToOne: GenusNote fixtures",
+            "description": null
+        },
+        {
+            "id": "manytoone-setup-genusnote-genus-property",
+            "name": "ManyToOne: Setup GenusNote.genus property",
+            "description": null
+        },
+        {
+            "id": "manytoone-type-hint-setter-for-clarity",
+            "name": "ManyToOne: Type-hint setter for clarity",
+            "description": null
+        },
+        {
+            "id": "manytoone-generate-migration",
+            "name": "ManyToOne: Generate migration",
+            "description": null
+        },
+        {
+            "id": "manytoone-manually-setting-in-newaction",
+            "name": "ManyToOne: Manually setting in newAction",
+            "description": null
+        },
+        {
+            "id": "manytoone-adding-nullable-false",
+            "name": "ManyToOne: Adding nullable=false",
+            "description": null
+        },
+        {
+            "id": "manytoone-fixtures-with-reference",
+            "name": "ManyToOne: Fixtures with reference",
+            "description": null
+        },
+        {
+            "id": "paramconverter-change-to-name-dump",
+            "name": "ParamConverter: Change to name, dump",
+            "description": null
+        },
+        {
+            "id": "onetomany-basic-mapping",
+            "name": "OneToMany: Basic mapping",
+            "description": null
+        },
+        {
+            "id": "onetomany-looping-over-relation",
+            "name": "OneToMany: Looping over relation",
+            "description": null
+        },
+        {
+            "id": "onetomany-begin-to-build-notes-array",
+            "name": "OneToMany: Begin to build notes array",
+            "description": null
+        },
+        {
+            "id": "onetomany-phpdoc-finish-endpoint",
+            "name": "OneToMany: phpdoc + finish endpoint",
+            "description": null
+        },
+        {
+            "id": "onetomany-order-by-on-relation",
+            "name": "OneToMany: Order by on relation",
+            "description": null
+        },
+        {
+            "id": "join-lazy-filter-for-recent-notes",
+            "name": "Join: Lazy filter for recent notes",
+            "description": null
+        },
+        {
+            "id": "join-genusrepository-simple-query",
+            "name": "Join: GenusRepository simple query",
+            "description": null
+        },
+        {
+            "id": "join-finish-query-on-relation",
+            "name": "Join: Finish query on relation",
+            "description": null
+        },
+        {
+            "id": "join-join-query-to-order-by-relation",
+            "name": "Join: Join query to order by relation",
+            "description": null
+        }
+    ],
+    "sha": "802016e40e24b7138d928946b52f56e2a26b8671"
+}

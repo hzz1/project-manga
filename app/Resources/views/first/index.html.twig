@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	{% block title %}First {{ name }} {% endblock %}
+
+
+    <!-- Bootstrap Core CSS -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link href="/css/landing-page.css') }}" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/css/demo.css">
+	<link rel="stylesheet" href="/css/footer-distributed-with-address-and-phones.css">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<script>
+			$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#t").hide();
+        $("#s").show();
+   
+    });
+    $("#show").click(function(){
+        $("#s").hide();
+        $("#t").show();
+    });
+});
+
+	</script>
+</head>
+
+<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+			<div class="container topnav">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right a">
+						<li>
+							<input type="text" /><a href="#about">البحث</a>
+						</li>
+						<li>
+							<a href="#services">فرق الترجمة</a>
+						</li>
+						<li>
+							<a href="#contact"> السوق</a>
+						</li>
+						<li>
+							<a href="#contact" > اعدادات الموقع</a>
+						</li>
+						<li class="home1">
+							<a href="#contact"> الرئيسية</a>
+						</li>
+
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+		        <div class="col-lg-4">
+				    <ul id="login-dp">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+
+							<h2><small><a id="hide">التسجيل </a></small></h2>
+							<h2><small><a id="show">تسجيل الدخول</a></small></h2>
+
+							<br><br><br><br><br>
+								<div id="t"><p>تسجيل الدخول عبر</p>
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                أو
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">أسم المستخدم</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="أسم المستخدم" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">كلمة السر</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="كلمة السر" required>
+                                             <div class="help-block text-right"><a href="">هل نسيت كلمة السر؟</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">سجول دخولك</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> البقاء متصلاً
+											 </label>
+										</div>
+								 </form>
+								 </div>
+
+
+								<div id="s" style="display: none;">
+								<div id="t"><p>التسجيل عبر</p></div>
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                أو
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">أسم المستخدم</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="أسم المستخدم" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">البريد الألكتروني</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="البريد الألكتروني" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">كلمة السر</label>
+											 <input type="password" class="form-control" id="exampleInputEmail2" placeholder="كلمة السر" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">إعادة كلمة السر</label>
+											 <input type="password" class="form-control" id="exampleInputEmail2" placeholder="إعادة كلمة السر" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">تاريخ الميلاد</label>
+											 <input type="date" class="form-control" id="exampleInputPassword2">
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">التسجيل</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox">البقاء متصلاً
+											 </label>
+										</div>
+								 </form>
+								 </div>
+
+
+							</div>
+
+					 </div>
+				</li>
+			</ul>
+				</div>
+
+                <div class="col-lg-8">
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	<a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4 div1">
+                   <a href="#"><img src="images/div1.gif" /></a>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-4 div1">
+                    <a href="#"><img src="images/div1.gif" /></a>
+                </div>
+                 <div class="col-lg-4 col-sm-4 div1">
+                   <a href="#"><img src="images/div1.gif" /></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4 div1">
+                   <a href="#"><img src="images/div1.gif" /></a>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-4 div1">
+                    <a href="#"><img src="images/div1.gif" /></a>
+                </div>
+                 <div class="col-lg-4 col-sm-4 div1">
+                    <a href="#"><img src="images/div1.gif" /></a>
+                </div>           
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    
+    <!-- /.content-section-a -->
+
+	
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Company<span>logo</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Blog</a>
+					·
+					<a href="#">Pricing</a>
+					·
+					<a href="#">About</a>
+					·
+					<a href="#">Faq</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Company Name &copy; 2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>21 Revolution Street</span> Paris, France</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 555 123456</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
